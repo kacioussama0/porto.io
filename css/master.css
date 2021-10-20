@@ -1,0 +1,195 @@
+* {
+    font-family: 'Cairo', sans-serif;
+}
+
+body {
+
+    margin: 200px 25px;
+    background-color: #f5f5f5;
+}
+header {
+    width: 100%;
+   position: absolute;
+    background-color: #191919;
+    color: #fff;
+    text-align: center;
+    top:0;
+    left:0;
+
+}
+div.player-info {
+    width: 90%;
+    height: 300px;
+    background-color: #ffff;
+    margin: 15px auto;
+    display: flex;
+}
+div.player-info div.info-left {
+    width: 20%;
+    border-right: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+div.player-info div.info-left img{
+    width: 120px;
+    height: 120px;
+    display: block;
+    border-radius: 50%;
+    margin: 10px auto;
+    border: 5px solid #ddd;
+}
+div.player-info div.info-left h3{
+    text-align: center;
+   margin: 5px;
+}
+.progress {
+    background-color: #009688;
+    display: block;
+    width: 65%;
+    height: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+.progress::after {
+    content: "";
+    background-color: #F1F1F1;
+    width: 30%;
+    height: 20px;
+    border-radius: 0 5px 5px 0;
+    position: absolute;
+    right: -1Px;
+
+}
+div.player-info div.info-left p{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+div.player-info div.info-left b{
+    color: #76BDAF;
+}
+div.player-info div.info-right {
+    width: 75%;
+    margin: 0 15px;
+}
+div.player-info div.info-right span {
+    display: block;
+    margin-right: auto;
+    text-align: right;
+
+}
+
+
+
+div.points-log {
+    width: calc(90% - 30px);
+    height: 300px;
+    background-color: #fff;
+    margin: 40px auto;
+    padding: 10px 15px;
+}
+
+h2 {
+    width: fit-content;
+    height: 40px;
+    color: #fff;
+    background-color: #607D8B;
+    padding: 10px;
+    text-align: center;
+    line-height: 40px;
+}
+div.points-log p{
+    width: 100%;
+    padding-bottom : 15px;
+    border-bottom: 1px solid #eee;
+}
+div.points-log b {
+        color: #00968c;
+}
+
+div.points-log strong{
+    color: #e91e63;
+}
+div.trophies {
+    width: calc(90% - 30px);
+
+    background-color: #fff;
+    margin: 40px auto;
+    padding: 10px 15px;
+
+}
+div.trophies .images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+div.trophies .trophy {
+
+    width: 60px;
+    height: 60px;
+    margin: 15px;
+}
+div.ladder-news {
+    width: calc(90% - 30px);
+    height: 150px;
+    background-color: #fff;
+    margin: 40px auto;
+    padding: 10px 15px;
+}
+
+div.ladder-news strong {
+        color: #2196f3;
+}
+div.ladder-news b {
+    color: #f44336;
+}
+div.powers {
+    width: calc(90% - 30px);
+
+    background-color: #fff;
+    margin: 40px auto;
+    padding: 10px 15px;
+
+}
+
+
+div.powers p {
+    width: 80%;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+    display: inline-block;
+
+}
+
+span.yes , span.no {
+    width: 20%;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+    display: inline-block;
+    margin: -15px;
+    text-align: right;
+    font-weight: bold;
+}
+span.yes {
+    color: green;
+}
+span.no {
+    color: red;
+}
+footer {
+    width: 100%;
+    position: absolute;
+    background-color: #191919;
+    left:0;
+
+
+}
+footer p {
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    font-size: 25px;
+}
